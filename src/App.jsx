@@ -44,7 +44,7 @@ const WeatherDashboard = () => {
             value={cityInput}
             onChange={(e) => setCityInput(e.target.value)}
             placeholder="Add city"
-            className="p-2 border rounded w-full"
+            className="p-2 border rounded w-full text-black"
           />
           <button onClick={addCity} className="bg-blue-500 text-white px-4 py-2 rounded">Add</button>
           <button onClick={toggleUnit} className="bg-gray-500 text-white px-4 py-2 rounded">{unit}</button>
